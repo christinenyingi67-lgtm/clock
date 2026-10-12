@@ -1,0 +1,49 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fce7f3;
+  font-family: Arial, sans-serif;
+}
+
+.business-card {
+  width: 320px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px #d8a6c1;
+}
+
+.business-card h1 {
+  color: #702963;
+  font-size: 26px;
+}
+
+.business-card h3 {
+  color: #c060a1;
+}
+
+.business-card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.business-card button {
+  background-color: #702963;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.business-card button:hover {
+  background-color: #c060a1;
+}
